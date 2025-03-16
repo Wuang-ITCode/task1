@@ -1,0 +1,45 @@
+body {
+    background: url('../images/chill.jpg');
+    background-size: cover;
+    background-position-y: -35px;
+    text-align: center;
+
+}
+
+li {
+    background: #dbdae3;
+    margin: 5px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* CSS để thay đổi màu chữ của các mục trong sidebar */
+.navbar-nav .nav-link {
+    color: black !important;
+}
+
+/* CSS để thay đổi màu chữ của các mục trong sidebar (bên trong các item menu) */
+.nav-item .nav-link {
+    color: black !important;
+}
+
+/* Nếu muốn thay đổi màu chữ của các mục trong dropdown */
+.nav-item.dropdown .nav-link {
+    color: black !important;
+}
+
+/* Để đảm bảo khi hover, màu sắc vẫn là đen */
+.navbar-nav .nav-link:hover,
+.nav-item .nav-link:hover,
+.nav-item.dropdown .nav-link:hover {
+    color: black !important;
+}
